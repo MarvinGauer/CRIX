@@ -1,0 +1,37 @@
+Name of Quantlet : CRIXGraph
+
+Published in :  'CRIX or evaluating blockchain based currencies'
+
+Description : Given the access to the correpsonding Google Analytics Reports it creates the Graphs needed for regular reporting
+
+Keywords : 
+ - CRIX
+ - ECRIX
+ - EFCRIX
+ - FDAX
+ - FIPC
+ - index
+ - cryptocurrency
+ - crypto
+ - visualization
+
+See also : 
+ - CRIXindex
+ - ECRIXindex
+ - EFCRIXindex
+ - CRIXfamdiff
+ - CRIXfamdiffloss
+ - CRIXmembers
+ - FDAXloss
+ - CRIXhnoptions
+ - CRIXoutmarket
+ - CRIXoutmarketTERES
+ - CRIXvarreturn
+
+Author : Marvin Gauer
+
+Submitted :  Mon, Mar 25 2019 by Marvin Gauer
+
+Datafile : 
+
+Example: 
