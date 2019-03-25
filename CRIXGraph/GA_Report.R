@@ -24,8 +24,6 @@ overall_start = as.Date("2019-01-01",format = "%Y-%m-%d")
 # Download Data
 Crix_all        = google_analytics(CRIX_id,date_range = c(overall_start,end_date),metrics = c('pageviews'),dimensions = c('date'))
 Crix_period     = google_analytics(CRIX_id,date_range = c(start_date,end_date),metrics = c('pageviews'),dimensions = c('date'))
-Quantlet_all    = google_analytics(Q_id,date_range = c(overall_start,end_date),metrics = c('pageviews'),dimensions = c('date'))
-Quantlet_period = google_analytics(Q_id,date_range = c(start_date,end_date),metrics = c('pageviews'),dimensions = c('date'))
 
 # Define Ploting Function
 graph = function(data = NULL,x = NULL, y = NULL, y_name = "Pageviews", output = NULL){
@@ -51,7 +49,4 @@ graph = function(data = NULL,x = NULL, y = NULL, y_name = "Pageviews", output = 
 
 # Create & Save Plots
 graph(Crix_all,Crix_all$date,Crix_all$pageviews,"Pageviews","Overall_Pageviews.pdf")
-graph(Crix_period,Crix_period$date,Crix_period$pageviews,"Pageviews","Overall_Pageviews_Period.pdf")
-graph(Quantlet_all,Quantlet_all$date,Quantlet_all$pageviews,"Pageviews","Overall_Pageviews_Quantlet.pdf")
-graph(Quantlet_period,Quantlet_period$date,Quantlet_period$pageviews,"Pageviews","Overall_Pageviews_Period_Quantlet.pdf")
-  
+graph(Crix_period,Crix_period$date,Crix_period$pageviews,"Pageviews","Overall_Pageviews_Period.pdf") 
