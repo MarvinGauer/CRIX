@@ -2,7 +2,7 @@ Name of Quantlet : CRIXGraph
 
 Published in :  'CRIX or evaluating blockchain based currencies'
 
-Description : Given the access to the correpsonding Google Analytics Reports it creates the Graphs needed for regular reporting
+Description : Given the access to the correpsonding Google Analytics Reports it creates the Graphs needed for regular reporting and other interesting graphics in regards to the CRIX project
 
 Keywords : 
  - CRIX
